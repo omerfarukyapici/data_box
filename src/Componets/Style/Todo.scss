@@ -1,0 +1,14 @@
+@import './Variables.scss';
+
+.Todo-P {
+    display: flex;
+    justify-content: center;
+}
+.Todo-C {
+    border-top: 1px solid $mainC;
+    border-bottom: 1px solid $mainC;
+    width: $mainWidth;
+    text-align: center;
+    margin: 3rem 0 3rem 0;
+    padding: 2rem 0 2rem 0;
+}

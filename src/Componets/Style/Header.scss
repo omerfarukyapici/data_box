@@ -1,0 +1,44 @@
+@import "./Variables.scss";
+
+.Header {
+    display: flex;
+    justify-content: center;
+    background-color: $mainBg;
+    border-bottom: 4px solid $mainC;
+}
+.H-c {
+    color: $mainC;
+    width: $mainWidth;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .5rem 0 .5rem;
+}
+
+.H-c .H-r a {
+    text-decoration: none;
+    color: $mainC;
+    border: 3px solid $mainC;
+    padding: .3rem;
+    background-color: $yBg;
+}
+.H-c img {
+    width: 4rem;
+    padding-top: .3rem;
+}
+
+.H-r {
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 400px) {
+    .H-r {
+        width: 200px;
+        font-size: .9rem;
+    }
+}

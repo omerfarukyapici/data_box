@@ -1,0 +1,17 @@
+@import './Variables.scss';
+
+.Counter-P {
+    display: flex;
+    justify-content: center;
+}
+
+.Counter-C {
+    width: $mainWidth;
+    text-align: center;
+}
+.Counter-C button {
+    padding: .4rem;
+    color: white;
+    background-color: rgb(24, 23, 23);
+    margin: .3rem;
+}

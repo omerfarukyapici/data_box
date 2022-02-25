@@ -1,0 +1,55 @@
+@import './Variables.scss';
+
+.M-p {
+    display: flex;
+    justify-content: center;   
+}
+.M-p p {
+    background-color: aqua;
+}
+
+.M-c {
+    width: $mainWidth;
+    padding: 3rem 0 3rem 0;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.M-card {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(255, 255, 255);
+    width: 220px;
+    border: 3px solid $mainC;
+    padding: .5rem;
+    margin: 1rem;
+    color: black;
+    font-weight: 600;
+}
+.img-p {
+    display: flex;
+    justify-content: center;
+}
+
+.Movie-C img {
+    width: 210px;
+    height: auto;
+}
+.Movie-C button {
+    padding: .5rem 1.6rem .5rem 1.6rem;
+    background-color: rgba(0, 0, 0, 0.61);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    letter-spacing: .1rem;
+    font-size: 1.1rem;
+    margin: 1rem 0 1rem 0;
+    
+    &:hover {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+      }
+}
+.movie-divs div {
+    padding: .2rem 0 .3rem 0;
+}
+

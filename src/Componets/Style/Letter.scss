@@ -1,0 +1,85 @@
+@import "./Variables.scss";
+
+.L-P {
+    display: flex;
+    justify-content: center;
+}
+.L-C {
+    padding: 3rem 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.L-C input {
+    width: 500px;
+    padding: 0.6rem;
+    border: 1px solid $mainC;
+}
+.L-C textarea {
+    width: 500px;
+    padding: 0.6rem;
+    resize: none;
+    height: 100px;
+    border: 1px solid $mainC;
+}
+.L-C div {
+    margin: 0.5rem;
+}
+
+.L-C p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: $mainC;
+}
+
+.L-C div:nth-child(1),
+.L-C div:nth-child(6) {
+    padding-bottom: 1rem;
+}
+
+.L-C button {
+    padding: 0.4rem;
+    margin-bottom: 3rem;
+}
+
+.Letter {
+    background-color: rgb(36, 23, 56);
+    padding: 1rem;
+    border: 2px solid $mainC;
+    border-radius: .3rem;
+    width: $mainWidth;
+    position: relative;
+}
+.Letter p {
+    color: rgb(255, 255, 255) !important;
+}
+.Letter span {
+    color: rgb(217, 250, 69) !important;
+}
+.L-Parent {
+    display: flex;
+    justify-content: center;
+    padding: 0 .5rem 3rem .5rem;
+}
+
+@media (max-width: 1200px) {
+    .Letter{
+        width: auto ;
+    }
+    .L-C input {
+        width: 400px;
+    }
+    .L-C textarea {
+        width: 400px;
+    }
+    .L-C {
+        width: auto;
+    }
+}
+@media (max-width: 500px) {
+    .L-C input {
+        width: 230px;
+    }
+    .L-C textarea {
+        width: 230px;
+    }
+}
