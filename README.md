@@ -8,7 +8,7 @@
 
 
 
- Rest Api,
+ Api,
  TypeScript,
  Form Data,
  jest,
